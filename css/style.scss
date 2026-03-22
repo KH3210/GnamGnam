@@ -134,12 +134,12 @@ html {
 
     @media (max-width: 768px) {
         height: 40vh;
-        background-image: url(./image/firstView-pc.png);
+        background-image: url(../image/firstView-pc.png);
         background-position: canter top;
     }
 
     @media (max-width: 480px) {
-        background-image: url(./image/firstView-sp.png);
+        background-image: url(../image/firstView-sp.png);
     }
 
 }
@@ -398,7 +398,7 @@ text-align: center;
     top: 50%;
     width: 40px;
     height: 40px;
-    background-image: url(./image/facebook.png);
+    background-image: url(../image/facebook.png);
     background-size: contain;
     transform: translateY(-50%);
 }
