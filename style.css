@@ -1,5 +1,5 @@
-/* レスポンシブ用SCSS いったん使わない*/
-$breakpoints: (
+/* レスポンシブ用SCSS いったん使わない
+$breakpoints: {(
     'sp': 'screen and (max-width: 480px)',
     'tab': 'screen and (max-width: 768px)',
     'pc': 'screen and (max-width: 1024px)',
@@ -10,6 +10,7 @@ $breakpoints: (
         @content;
     }
 }
+*/
 
 /* 共通部品 */
 html {
